@@ -1,0 +1,16 @@
+:root{
+    --mainDark: #343a40;
+    --mainGrey: rgba(109,109,109);
+    --mainLightGrey: rgba(172,172,172);
+    -mainwhite: #fff;
+    --mainBlue: #007bff;
+}
+
+/* For making corner 3 lines in navigation bar*/
+.navbar-toggler:focus {
+    outline: none;
+}
+
+.navbar-toggler{
+    border: none;
+}
