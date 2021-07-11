@@ -14,3 +14,10 @@
 .navbar-toggler{
     border: none;
 }
+
+.hello{
+    font-style: inherit;
+    font-size: x-large;
+    color: white;
+    
+}

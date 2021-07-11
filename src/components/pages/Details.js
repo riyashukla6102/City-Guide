@@ -4,67 +4,56 @@ import styled from 'styled-components';
 import Reviews from '../Reviews';
 
 function Details(){
- 
-        return (
-            <InfoConsumer>
-                {data => {
-                    const {
-
-                        id,
-                        headerTitle,
-                        headerSubTitle,
-                        headerText,
-                        img,
-                        title,
-                        maps,
-                        description
+    return (
+        <InfoConsumer>
+            {data => {
+                const {
+                    id,
+                    headerTitle,
+                    headerSubTitle,
+                    headerText,
+                    img1,
+                    title,
+                    maps,
+                    description
                     } = data.detailInfo;
 
-                    return(
-                       <>
-                        <HeaderDetails className="container-fluid align-items-center">
-                            <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
-                            <h4 className="display-5">{headerSubTitle}</h4>
-                            <p>{headerText}</p>
+    return(
+        <>
+            <HeaderDetails className="container-fluid align-items-center">
+            <h1 className="display-1 font-weight-bold">{headerTitle}</h1>
+            <h4 className="display-5">{headerSubTitle}</h4>
+            <p>{headerText}</p>
 
-                            {/*SOCIAL ICONS*/}
-                            <div className="container mt-5">
-                                <div className="row justify-content-center">
-                                <div className="col-2">
-                                    <i className="fab fa-facebook-f" />
-                                </div>
+            {/*SOCIAL ICONS*/}
+            <div className="container mt-5">
+                <div className="row justify-content-center">
+                    <div className="col-2">
+                        <i className="fab fa-facebook-f" />
+                    </div>
 
-                                <div className="col-2">
+                <div className="col-2">
+                    <a href ="https://twitter.com/Riya08110827" >
+                    <i className="fab fa-twitter"  />
+                     </a>
+                </div>
+
+                 <div className="col-2">
+                    <i className="fab fa-google" />
+                </div>
+
+                <div className="col-2">
+                    <a href ="https://www.instagram.com/_riya.shukla_/">
+                    <i className="fab fa-instagram" />
+                    </a>
+                </div>
                                 
-                                <a href ="https://twitter.com/Riya08110827" >
-                                <i className="fab fa-twitter"  />
-                                </a>
-
-                                
-                                    
-                                
-                                </div>
-
-                                <div className="col-2">
-                                    <i className="fab fa-google" />
-                                </div>
-
-                                <div className="col-2">
-                                <a href ="https://www.instagram.com/_riya.shukla_/">
-                                    
-                                    <i className="fab fa-instagram" />
-                                    </a>
-                                    
-
-  
-                                </div>
-                                
-                                <div className="col-2">
-                                    <i className="fab fa-reddit" />
-                                </div>
-                                </div>
-                                </div>
-                           </ HeaderDetails>
+                <div className="col-2">
+                    <i className="fab fa-reddit" />
+                </div>
+                 </div>
+                </div>
+            </HeaderDetails>
 
                            {/* Nav Link */}
                            <div className="container">
@@ -102,7 +91,7 @@ function Details(){
                                     role="tabpanel">
                                         <h2 className="mb-3">{title}</h2>
                                         <img
-                                         src={img} 
+                                         src={img1} 
                                          alt={title} 
                                          className="img-thumbnail img-fluid"
                                          

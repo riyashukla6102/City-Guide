@@ -1,38 +1,50 @@
 import React from 'react';
 import logo from  '../../logo.svg';
 import {Navbar , Nav , Form , FormControl , Button} from 'react-bootstrap';
+import{NavLink} from 'react-router-dom';
 
  function NavbarComponent() {
     return (
-
-
       <Navbar bg="light" expand="lg navbar-light bg-dark">
+      <Navbar.Brand href="/">
       <img src={logo} alt ="logo" style={{ width:'35px'}}></img>
-      <Navbar.Brand href="#home"></Navbar.Brand>
+      <span className="hello ml-1" > City-Guide </span>
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
 
+
+      
+
     <Nav className="mx-auto text-white text-uppercase ml-5">
-      <Nav.Link className="nav-link text-white text-uppercase ml-5" href="/">Home&nbsp;
+
+    
+
+      <NavLink className="nav-link text-white text-uppercase ml-5" to="/home">Home&nbsp;
        <i className="fas fa-home"></i>
-      </Nav.Link>
+      </NavLink>
 
-      <Nav.Link className="nav-link text-white text-uppercase ml-5" href="/news">News&nbsp;
+      <NavLink className="nav-link text-white text-uppercase ml-5" to="/news">News&nbsp;
        <i className="fas fa-newspaper"></i>
-       </Nav.Link>
+       </NavLink>
 
-      <Nav.Link className="nav-link text-white text-uppercase ml-5" href="/contacts">Contact Us&nbsp; 
+      <NavLink className="nav-link text-white text-uppercase ml-5" to="/contacts">Contact Us&nbsp; 
       <i className="fas fa-phone"></i>
-      </Nav.Link>
+      </NavLink>
 
-      <Button variant="light ml-5">Light</Button>
-       <Button variant="dark ">Dark</Button>{' '}
+      <NavLink className="nav-link text-white text-uppercase ml-5" to="/signup">Signup/Login&nbsp;
+      <i class="fas fa-user-plus"></i>
+      </NavLink>
+
       
     </Nav>
-    <Form inline>
-      <FormControl type="text" placeholder="Search" className="mr-sm-2" />
-      <Button variant="outline-success">Search</Button>
-    </Form>
+    {/* <Form inline>
+      <Button type="button" className="btn btn-light sm-2">Light
+      </Button>
+      <Button type="button" className="btn btn-dark">Dark</Button>
+    </Form> */}
+
+    
   </Navbar.Collapse>
 </Navbar>
         

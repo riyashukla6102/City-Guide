@@ -6,6 +6,7 @@ import {BrowserRouter as Router} from 'react-router-dom';
 import {InfoProvider} from './components/context';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 ReactDOM.render(
   <InfoProvider>
     <Router>

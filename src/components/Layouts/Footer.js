@@ -26,7 +26,7 @@ function Footer(){
     
             <h4>Places to visit</h4>
             <ul className="list-unstyled">
-                <li><a href="https://timesofindia.indiatimes.com/travel/perth/travel-guide/cs45448716.cms">In Bangalore</a></li>
+                <li><a href="/" target="_blank">In Bangalore</a></li>
                 <li> <a href="/">In Mumbai</a></li>
                 <li><a href="/">In Delhi</a></li>
                 <li><a href="/">In Goa</a></li>

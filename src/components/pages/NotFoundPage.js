@@ -21,7 +21,7 @@ import {Modal,Button,Form,Col} from 'react-bootstrap';
                             Sorry, an error occured. The requested page was not found!
                         </div>
                         <div className="error-actions">
-                            <Link to ="/" className="btn btn-outline-primary btn-lg" >
+                            <Link to ="/home" className="btn btn-outline-primary btn-lg" >
                                 <i className="fas fa-home" />&nbsp;Back to main
                             </Link>
 
