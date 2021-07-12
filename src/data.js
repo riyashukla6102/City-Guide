@@ -48,7 +48,7 @@ export const placeInfo = [
     headerText:
       'The best times to take in the majesty of the Golden Temple are before sunrise and during the cooler evenings where temple lights set the surrounding waters aglow. It is recommended for women to dress conservatively when visiting the temple and mind the mischievous monkeys that have a penchant for stalking people who lug around food.',
     title:
-      'The Golden Temple, also known as Shri Durbar Sahib or Darbar Sahib',
+      'The Golden Temple, also known as Shri Durbar Sahib',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium labore modi error sed ad quis obcaecati aliquid officia rerum alias quia voluptatum, consequatur at optio quas nisi autem necessitatibus nemo!',
     img1:
@@ -70,7 +70,7 @@ export const placeInfo = [
     headerText:
      'Manali, one of the most well-known hill stations in India, is located in the state of Himachal Pradesh. Often touted as the “gateway to adventure”, this high-altitude Himalayan town provides splendid access to Hampta Pass for trekkers and Solang Valley for skiers. ',
     title: 
-    'Perspiciatis illum',
+    'Lovers Paradise',
     description:
       'Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda quibusdam nostrum dicta vitae, illo numquam autem excepturi rem unde eos exercitationem perferendis expedita, blanditiis eaque facilis explicabo aliquid doloribus rerum?',
       img1:
@@ -92,7 +92,7 @@ export const placeInfo = [
     headerText:
      'Contrary to popular opinion, Kashmir isn’t just a destination swarmed by tie-dyed hippies. Dubbed the “Switzerland of India”, the Kashmiri countryside features an unbelievably beautiful landscape of snow-clad ranges and alpine peaks with people from all walks of life.',
     title: 
-    'Consequuntur quo',
+    'Jammu & Kashmir: Heaven On Earth',
     description:
       'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda illo numquam commodi nihil nam odit, minima perferendis delectus, quibusdam modi recusandae suscipit nobis cumque, veniam similique voluptas totam quasi mollitia.',
       img1:
@@ -110,10 +110,12 @@ export const placeInfo = [
     headerTitle: 
     'LEH-LADAKH',
     headerSubTitle:
-    'In Jammu And Kashmir',
+    'In Leh-Ladakh',
     headerText:
       'Also known as the “Land of High Passes”, this high-altitude destination is home to mostly Tibetans who are largely self-sufficient in food and fuel.This mountainous region located in the Jammu and Kashmir area extends beyond the Himalaya and features breathtaking landscapes and picture-perfect Tibetan Buddhist monasteries.',
-    description:
+    title:
+    'The stark and glorious land of Ladakh',
+      description:
       'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, nostrum. Non, cupiditate facere quidem quibusdam atque aliquam corrupti minus esse dolor doloremque, vel aut. Quae eos quo consequuntur id commodi?',
       img1:
       '.././images/leh.jpg',
